@@ -24,6 +24,4 @@ public class UserDetailsServiceImpl implements UserDetailsService {
                         " was not found in our DB at time: " + LocalDateTime.now()));
         return new AppUserDetails(user);
     }
-
-
 }
