@@ -1,4 +1,4 @@
-package com.example.web.handler;
+package com.example.spingjwtauthexample.web.handler;
 
 import com.example.spingjwtauthexample.exception.AlreadyExistsException;
 import com.example.spingjwtauthexample.exception.EntityNotFoundException;

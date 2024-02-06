@@ -1,15 +1,14 @@
-package com.example.web.controller;
+package com.example.spingjwtauthexample.web.controller;
 
-import com.example.security.SecurityService;
+import com.example.spingjwtauthexample.security.SecurityService;
 import com.example.spingjwtauthexample.exception.AlreadyExistsException;
-import com.example.spingjwtauthexample.repository.RefreshTokenRepository;
 import com.example.spingjwtauthexample.repository.UserRepository;
-import com.example.web.dto.AuthResponse;
-import com.example.web.dto.CreateUserRequest;
-import com.example.web.dto.LoginRequest;
-import com.example.web.dto.RefreshTokenRequest;
-import com.example.web.dto.RefreshTokenResponse;
-import com.example.web.dto.SimpleResponse;
+import com.example.spingjwtauthexample.web.dto.CreateUserRequest;
+import com.example.spingjwtauthexample.web.dto.LoginRequest;
+import com.example.spingjwtauthexample.web.dto.RefreshTokenRequest;
+import com.example.spingjwtauthexample.web.dto.SimpleResponse;
+import com.example.spingjwtauthexample.web.dto.AuthResponse;
+import com.example.spingjwtauthexample.web.dto.RefreshTokenResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;

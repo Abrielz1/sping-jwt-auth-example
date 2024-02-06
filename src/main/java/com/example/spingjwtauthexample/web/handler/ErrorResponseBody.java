@@ -1,4 +1,4 @@
-package com.example.web.handler;
+package com.example.spingjwtauthexample.web.handler;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

@@ -1,4 +1,4 @@
-package com.example.web.dto;
+package com.example.spingjwtauthexample.web.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,9 +9,7 @@ import lombok.NoArgsConstructor;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class RefreshTokenResponse {
+public class SimpleResponse {
 
-    private String accessToken;
-
-    private String refreshToken;
+    private String message;
 }

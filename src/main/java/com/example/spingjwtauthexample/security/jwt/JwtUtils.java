@@ -1,6 +1,6 @@
-package com.example.security.jwt;
+package com.example.spingjwtauthexample.security.jwt;
 
-import com.example.security.AppUserDetails;
+import com.example.spingjwtauthexample.security.AppUserDetails;
 import io.jsonwebtoken.ExpiredJwtException;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.MalformedJwtException;

@@ -1,4 +1,4 @@
-package com.example.security.configuration;
+package com.example.spingjwtauthexample.security.configuration;
 
 import com.example.spingjwtauthexample.model.RefreshToken;
 import org.springframework.beans.factory.annotation.Value;

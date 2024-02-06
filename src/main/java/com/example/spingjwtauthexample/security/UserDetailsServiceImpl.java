@@ -1,4 +1,4 @@
-package com.example.security;
+package com.example.spingjwtauthexample.security;
 
 import com.example.spingjwtauthexample.model.User;
 import com.example.spingjwtauthexample.repository.UserRepository;

@@ -1,4 +1,4 @@
-package com.example.events;
+package com.example.spingjwtauthexample.events;
 
 import com.example.spingjwtauthexample.model.RefreshToken;
 import lombok.extern.slf4j.Slf4j;

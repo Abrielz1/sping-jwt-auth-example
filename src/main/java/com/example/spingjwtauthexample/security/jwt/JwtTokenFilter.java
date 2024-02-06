@@ -1,6 +1,6 @@
-package com.example.security.jwt;
+package com.example.spingjwtauthexample.security.jwt;
 
-import com.example.security.UserDetailsServiceImpl;
+import com.example.spingjwtauthexample.security.UserDetailsServiceImpl;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

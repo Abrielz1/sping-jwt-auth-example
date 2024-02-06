@@ -1,8 +1,8 @@
-package com.example.security.configuration;
+package com.example.spingjwtauthexample.security.configuration;
 
-import com.example.security.UserDetailsServiceImpl;
-import com.example.security.jwt.JwtAuthenticationEntryPoint;
-import com.example.security.jwt.JwtTokenFilter;
+import com.example.spingjwtauthexample.security.UserDetailsServiceImpl;
+import com.example.spingjwtauthexample.security.jwt.JwtAuthenticationEntryPoint;
+import com.example.spingjwtauthexample.security.jwt.JwtTokenFilter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

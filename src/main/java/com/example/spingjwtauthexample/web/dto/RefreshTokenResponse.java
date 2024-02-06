@@ -1,4 +1,4 @@
-package com.example.web.dto;
+package com.example.spingjwtauthexample.web.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,11 +9,9 @@ import lombok.NoArgsConstructor;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class LoginRequest {
+public class RefreshTokenResponse {
 
-    private String username;
+    private String accessToken;
 
-    private String password;
-
-    private String email;
+    private String refreshToken;
 }

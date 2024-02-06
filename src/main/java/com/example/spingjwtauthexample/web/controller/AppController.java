@@ -1,4 +1,4 @@
-package com.example.web.controller;
+package com.example.spingjwtauthexample.web.controller;
 
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.GetMapping;

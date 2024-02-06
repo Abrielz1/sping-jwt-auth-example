@@ -1,16 +1,16 @@
-package com.example.security;
+package com.example.spingjwtauthexample.security;
 
-import com.example.security.jwt.JwtUtils;
+import com.example.spingjwtauthexample.security.jwt.JwtUtils;
 import com.example.spingjwtauthexample.exception.RefreshTokenException;
 import com.example.spingjwtauthexample.model.RefreshToken;
 import com.example.spingjwtauthexample.model.User;
 import com.example.spingjwtauthexample.repository.UserRepository;
 import com.example.spingjwtauthexample.service.RefreshTokenService;
-import com.example.web.dto.AuthResponse;
-import com.example.web.dto.CreateUserRequest;
-import com.example.web.dto.LoginRequest;
-import com.example.web.dto.RefreshTokenRequest;
-import com.example.web.dto.RefreshTokenResponse;
+import com.example.spingjwtauthexample.web.dto.AuthResponse;
+import com.example.spingjwtauthexample.web.dto.CreateUserRequest;
+import com.example.spingjwtauthexample.web.dto.LoginRequest;
+import com.example.spingjwtauthexample.web.dto.RefreshTokenRequest;
+import com.example.spingjwtauthexample.web.dto.RefreshTokenResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

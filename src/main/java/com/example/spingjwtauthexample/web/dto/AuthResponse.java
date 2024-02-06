@@ -1,23 +1,26 @@
-package com.example.web.dto;
+package com.example.spingjwtauthexample.web.dto;
 
-import com.example.spingjwtauthexample.model.RoleType;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import java.util.Set;
+import java.util.List;
 
 @Data
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class CreateUserRequest {
+public class AuthResponse {
+
+    private Long id;
+
+    private String token;
+
+    private String refreshToken;
 
     private String username;
 
     private String email;
 
-    private Set<RoleType> roles;
-
-    private String password;
+    private List<String> roles;
 }
